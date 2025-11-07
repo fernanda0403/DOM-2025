@@ -1,0 +1,1 @@
+aqui tiramos los codiguitos del DOM (Document Objet Model)
