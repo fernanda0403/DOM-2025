@@ -53,3 +53,53 @@ titulo.style.color="red";
 titulo.style.backgroundColor="blue";
 
 titulo.style.fontSize="64px"
+
+
+/* 
+
+Método setProperty()
+
+Asignamos una propiedad de estilo a un elemento seleccionado.
+
+Sintaxis:
+
+elemento.style.setProperty(nombrePropiedad, valor, important);
+
+  - Más flexible, y por lo tanto más usado.
+  - Las propiedaddes se escriben en kebab-kase
+  -El parametro "important" es opcional.
+
+*/
+
+titulo.style.setProperty("color", "dark")
+titulo.style.setProperty("background-color", "green", "important")
+
+/* 
+
+eliminar calores de propiedades del nodo seleccionado nodo,style.nombrePropiedad 
+
+en esta sintaxis la propiedad de CSS va en formato camelCase
+
+*/
+
+//quita estilos
+/* titulo.style.color= "";
+titulo.style.backgroundColor= "";
+ */
+/* 
+
+Metodo removeProperty()
+
+Esto elimina la propiedad de estilo
+
+Sintaxis:
+
+elemento.styleremoveProperty(nombre-propiedad)
+
+El nombre de la propiedad es en formato keba-case
+
+*/
+
+titulo.style.removeProperty("color");
+titulo.style.removeProperty("background-color");
+titulo.style.removeProperty("font-size");
