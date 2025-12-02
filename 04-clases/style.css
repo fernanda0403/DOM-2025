@@ -6,6 +6,8 @@
 
 body {
   font-family: sans-serif;
+  background-color: black;
+  color: white;
 }
 
 .ingredientes {
@@ -25,4 +27,12 @@ body {
 
 .botana {
   padding: .5rem .3rem;
+}
+
+.semilla {
+  background-color: rgb(82, 47, 40);
+}
+
+.picante {
+  background-color: brown;
 }
